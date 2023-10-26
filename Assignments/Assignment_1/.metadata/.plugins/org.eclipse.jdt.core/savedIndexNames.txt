@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+/home/ritupowar/Desktop/My_GitData/dsa/Assignments/Assignment_1/.metadata/.plugins/org.eclipse.jdt.core
+1640392828.index
+296525043.index
+1865797976.index
+1722526821.index
+2412251472.index
+4288871903.index
+4174330310.index

@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+
+/**
+ * @author ritupowar
+ *
+ */
+public class A1_Q1_Main {
+public static int linearSearch() {
+	
+}
+	public static void main(String[] args) {
+		
+	}
+}

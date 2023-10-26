@@ -1,0 +1,10 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class A1_Q2_Main {
+	public static void main(String[] args) {
+		List<Employee> arr = new ArrayList<Employee>();
+		arr[0]= ;
+		arr.add(new Employee(1,"om",5000));
+	}
+}

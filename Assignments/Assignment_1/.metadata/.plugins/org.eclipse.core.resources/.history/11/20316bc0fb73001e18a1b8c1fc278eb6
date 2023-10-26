@@ -1,0 +1,9 @@
+
+public class A1_Q4_Main {
+	int linearSearch(int []arr,int n) {
+		
+	}
+public static void main(String[] args) {
+	
+}
+}

@@ -1,0 +1,6 @@
+class Employee{
+	int empno;
+}
+public class A1_Q2_Main {
+
+}

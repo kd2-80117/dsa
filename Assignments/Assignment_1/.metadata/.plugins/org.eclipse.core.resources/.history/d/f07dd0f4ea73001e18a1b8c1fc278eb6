@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class A1_Q2_Main {
+	static int empidLinearSearch(Employee[] arr, int size,int key) {
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i].getempid() == key)
+				return i;
+		}
+		return -1;
+	}
+
+	public static void main(String[] args) {
+		List<Employee> arr = new ArrayList<Employee>();
+
+		arr.add(new Employee(1, "om", 5000));
+		arr.add(new Employee(2, "ram", 3000));
+		arr.add(new Employee(3, "raj", 5000));
+		arr.add(new Employee(4, "dev", 3000));
+		arr.add(new Employee(5, "raju", 2000));
+		
+		System.out.print("Enter empid to search = ");
+		int key = sc.next();
+		int empid = empidLinearSearch(arr, arr.size(),key)
+		
+	}
+}

@@ -1,0 +1,57 @@
+/**
+ * 
+ */
+
+/**
+ * @author ritupowar
+ *
+ */
+public class A1_Q1_Main {
+	public static int linearSearch(int[] arr, int size, int key) {
+		int count = 0;
+		for (int i = 0; i < arr.length; i++) {
+			count++;
+			if (arr[i] == key) {
+
+				return count;
+			}
+		}
+		return count;
+	}
+
+	public static int binarySearch(int[] arr, int size, int key) {
+		int left = 0;
+		int right = size - 1, mid;
+		while (left <= right) {
+			mid = (left + right) / 2;
+			if(arr[mid]==key) return mid;
+			else if(arr[mid] < key) left = mid+1;
+			else right = mid -1;
+		}
+		return -1;
+	}
+	
+	public static int countBinarySearch(int[] arr, int size, int key) {
+		int left = 0,count=0;
+		int right = size - 1, mid;
+		while (left <= right) {
+			count++;
+			mid = (left + right) / 2;
+			if(arr[mid]==key) return mid;
+			else if(arr[mid] < key) left = mid+1;
+			else right = mid -1;
+		}
+		return -1;
+	}
+
+	public static void main(String[] args) {
+		int arr[] = { 11,22,33,44,56,78,99};
+		int count = linearSearch(arr, arr.length, 100);
+		System.out.println("Count of linear search comparison = " + count);
+		int index = binarySearch(arr,arr.length, 78);
+		if(index>-1)System.out.println("Element found at index "+index);
+		else System.out.println("Element not found");
+		System.out.println("Count of binary search comparision = "+);
+
+	}
+}

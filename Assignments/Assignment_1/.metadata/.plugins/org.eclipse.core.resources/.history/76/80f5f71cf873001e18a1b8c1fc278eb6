@@ -1,0 +1,7 @@
+
+public class A1_Q6_Main {
+	public static void main(String[] args) {
+		int[] arr = { 10, 20, 15, 3, 4, 4, 1 };
+
+	}
+}

@@ -1,0 +1,22 @@
+
+public class A1_Q4_Main {
+	int linearSearch(int []arr,int key,int n) {
+		
+		for (int i = 0; i < arr.length; i++) {
+			if(arr[i]==key) return i;
+		}
+		
+		return -1;
+	}
+public static void main(String[] args) {
+	
+	int arr[] = { 11, 22, 33, 44, 56, 78, 99 };
+	
+	int index = linearSearch(arr, arr.length, 78);
+	if (index > -1)
+		System.out.println("Element found at index " + index);
+	else
+		System.out.println("Element not found");
+	
+}
+}
