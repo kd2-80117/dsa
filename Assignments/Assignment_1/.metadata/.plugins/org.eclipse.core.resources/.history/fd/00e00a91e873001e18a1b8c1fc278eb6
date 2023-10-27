@@ -1,8 +1,0 @@
-class Employee{
-	int empno;
-	String name;
-	double salary;
-}
-public class A1_Q2_Main {
-
-}
