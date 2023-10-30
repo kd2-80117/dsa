@@ -1,5 +1,5 @@
 
-public class SinglyLinkedList {
+public class SinglyLinearLinkedList {
 
 	public class Node{
 		private int data;
@@ -11,7 +11,7 @@ public class SinglyLinkedList {
 	}
 	private Node head;
 	private Node tail;
-	public SinglyLinkedList() {
+	public SinglyLinearLinkedList() {
 		head = null;
 		tail = null;
 	}

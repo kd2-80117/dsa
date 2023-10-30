@@ -2,7 +2,7 @@
 public class A4_Q1_Main {
 
 	public static void main(String[] args) {
-		SinglyLinkedList l1 = new SinglyLinkedList();
+		SinglyLinearLinkedList l1 = new SinglyLinearLinkedList();
 
 		l1.addFirst(40);
 		// 40
