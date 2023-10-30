@@ -1,4 +1,7 @@
 package conversion;
+
+import java.util.Scanner;
+
 public class InfixToPostfix {
 
 	/**
@@ -48,6 +51,7 @@ public class InfixToPostfix {
 			post=post+st.pop();
 		}
 		System.out.println(post);
+		sc.close();
 	}
 
 }
