@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class A5_Q2_Main {
+public class A5_Q2_Stack {
 	public static class Stack {
 		SinglyLinearLinkedList l1;
 
@@ -33,7 +33,7 @@ public static void main(String[] args) {
 	
 	int choice =1;
 	while (choice!=0) {
-		System.out.println("Menu\n1.Push\n2.Pop\n3.Peek\nEnter your choice = ");
+		System.out.print("Menu\n1.Push\n2.Pop\n3.Peek\nEnter your choice = ");
 		 choice = sc.nextInt();
 		switch (choice) {
 		case 1:

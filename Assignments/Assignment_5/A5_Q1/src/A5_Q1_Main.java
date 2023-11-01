@@ -10,6 +10,7 @@ public class A5_Q1_Main {
 		System.out.println("Before Delete:");
 		l1.fDisplay();
 		l1.deletePos(1);
+		l1.deletePos(3);
 		System.out.println("After Delete:");
 		l1.fDisplay();
 

@@ -24,7 +24,9 @@ public class SinglyLinearLinkedList {
 		return head == null; 
 	}
 	public int getData() {
+		if(head!=null)
 		return head.data;
+		return 0;
 	}
 	public void addFirst(int value) {
 		Node newNode = new Node(value);
