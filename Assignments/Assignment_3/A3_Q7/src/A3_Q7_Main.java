@@ -1,7 +1,6 @@
 
 import java.util.Scanner;
 
-
 class Stack {
 	private int arr[];
 	private int top;
@@ -47,7 +46,7 @@ class Stack {
 public class A3_Q7_Main {
 
 	/**
-	 * @param args
+	 *Implementing Queue using Stack
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -57,31 +56,33 @@ public class A3_Q7_Main {
 		int data = 0;
 		while (choice != 0) {
 			System.out.println("0:Exit\n1:Add\n2:Delete\n3:Peek\n");
-			System.out.println("Enter Choice");
+			System.out.print("Enter Choice = ");
 			choice = new Scanner(System.in).nextInt();
 			switch (choice) {
 			case 0:
 				System.out.println("Bye bye");
 				break;
 			case 1:
-				System.out.println("Enter Data");
+				System.out.print("Enter Data = ");
 				data = new Scanner(System.in).nextInt();
 				st1.push(data);
 				break;
-			case 2: {
-				while (!st1.isEmpty())
-				{
+			case 2:
+
+			{
+				while (!st1.isEmpty()) {
 					st2.push(st1.pop());
 				}
 				System.out.println(st2.pop());
-				while (!st2.isEmpty())
-				{
+				while (!st2.isEmpty()) {
 					st1.push(st2.pop());
 				}
 
 			}
 				break;
-			case 3: {
+			case 3:
+
+			{
 				while (!st1.isEmpty())
 					st2.push(st1.pop());
 				System.out.println(st2.peek());
@@ -90,7 +91,7 @@ public class A3_Q7_Main {
 			}
 				break;
 			default:
-				System.out.println("Wrong Choice.....");
+				System.out.println("Wrong Choice...");
 				break;
 			}
 		}
