@@ -13,6 +13,8 @@ public class A4_Q3_Main {
 		// 10->20->30->40
 		l1.addLast(50);
 		// 10->20->30->40->50
+		l1.addLast(60);
+		l1.addLast(70);
 		// l1.deleteFirst();
 		// 20->30->40->50
 		// l1.deleteLast();

@@ -1,31 +1,18 @@
 
 public class A4_Q4_Main {
 	public static void main(String[] args) {
-		SinglyLinearLinkedList l1 = new SinglyLinearLinkedList();
+	LinkedList l1 = new LinkedList();
 
-		l1.addFirst(40);
-		// 40
-		l1.addFirst(30);
-		// 30->40
-		l1.addFirst(20);
-		// 20->30->40
-		l1.addFirst(10);
-		// 10->20->30->40
-		l1.addLast(50);
-		// 10->20->30->40->50
-		// l1.deleteFirst();
-		// 20->30->40->50
-		// l1.deleteLast();
-		// 20->30->40
-		// l1.addPosition(60, 7);
-		//l1.deletePosition(6);
-		System.out.println("Before Reverse : ");
-		l1.display();
-		l1.reverse();
-		System.out.println("After Reverse : ");
-		l1.display();
-		System.out.println("Middle node = "+l1.middleNode());
-		//l1.deleteAll();
+	l1.addFirst('C');
+	l1.addFirst('d');
+	l1.addFirst('e');
+	l1.addFirst('f');
+	l1.addFirst('g');
+	l1.addFirst('h');
+	l1.addFirst('i');
+	l1.displayList();
+	l1.reverse();
+	l1.displayList();
 	}
 }
 

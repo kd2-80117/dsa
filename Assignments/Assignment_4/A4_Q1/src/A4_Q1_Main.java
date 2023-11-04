@@ -14,15 +14,13 @@ public class A4_Q1_Main {
 		// 10->20->30->40
 		l1.addLast(50);
 		// 10->20->30->40->50
-		// l1.deleteFirst();
+		 l1.delFirst();
 		// 20->30->40->50
-		// l1.deleteLast();
+		l1.delLast();
 		// 20->30->40
-		// l1.addPosition(60, 7);
-		//l1.deletePosition(6);
+		
 		l1.display();
 
-		//l1.deleteAll();
 	}
 
 }
